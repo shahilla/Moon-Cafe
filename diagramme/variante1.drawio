@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="zu2EoAH2D1Jg1JocF3eD" name="IST Einzelserver">
+    <mxGraphModel dx="1030" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FBEEDE;strokeColor=#D79B00;verticalAlign=top;align=left;spacingLeft=6;spacingTop=2;fontStyle=1;fontColor=#8a6400;fontSize=11;" value="Einzelner Server / VM" vertex="1">
+          <mxGeometry height="259.2" width="320" x="184.6" y="339.8" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;" value="Gäste&lt;br&gt;PC / Smartphone" vertex="1">
+          <mxGeometry height="48" width="160" x="264.60002440214157" y="250.99998779296874" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;" value="Webserver" vertex="1">
+          <mxGeometry height="48" width="260" x="214.60002440214157" y="374.99998779296874" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;" value="Webanwendung" vertex="1">
+          <mxGeometry height="48" width="260" x="214.60002440214157" y="446.99998779296874" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;" value="Lokale Daten" vertex="1">
+          <mxGeometry height="48" width="260" x="214.60002440214157" y="518.9999877929688" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-8" edge="1" parent="1" source="LrKaAUpzQ-heAM8QSi7Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4A4A4A;exitX=0.500;exitY=0.979;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;labelBackgroundColor=#D9D9D9;fontSize=10;" target="LrKaAUpzQ-heAM8QSi7Q-5" value="HTTPS">
+          <mxGeometry relative="1" x="-0.4789" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-9" edge="1" parent="1" source="LrKaAUpzQ-heAM8QSi7Q-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4A4A4A;exitX=0.500;exitY=0.979;exitDx=0;exitDy=0;labelBackgroundColor=#D9D9D9;fontSize=10;" target="LrKaAUpzQ-heAM8QSi7Q-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-10" edge="1" parent="1" source="LrKaAUpzQ-heAM8QSi7Q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4A4A4A;exitX=0.500;exitY=0.979;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;labelBackgroundColor=#D9D9D9;fontSize=10;" target="LrKaAUpzQ-heAM8QSi7Q-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

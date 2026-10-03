@@ -124,7 +124,7 @@ T = {
             "Unsere Karte reicht von frisch zubereitetem Kaffee und cremigem Matcha bis zu Soufflé-Pancakes, French Toast, herzhaften Brunch-Gerichten und feinen Süssspeisen. Dabei stehen Qualität, frische Zutaten und eine liebevolle Zubereitung im Mittelpunkt.",
             "Auch das Ambiente ist Teil des Moon-Café-Erlebnisses. Ästhetisches Design, natürliche Materialien, warme Farben und liebevolle Details schaffen einen Ort, an dem man sich vom ersten Moment an wohlfühlt. Ob für einen ausgiebigen Brunch mit Freunden, eine entspannte Kaffeepause, ein gutes Buch oder einen ruhigen Nachmittag zum Lernen und Arbeiten, bei uns darf man ankommen, geniessen und gerne etwas länger bleiben.",
         ],
-        "about_tag": "Good food. Brighter days. \u2615\uFE0F\U0001F950\U0001F319",
+        "about_tag": "Gutes Essen. Schönere Tage. \u2615\uFE0F\U0001F950\U0001F319",
         "reserve": "Tisch reservieren", "menu": "Menü", "hours": "Öffnungszeiten",
         "contact": "Kontakt", "address": "Höheweg 20, 3800 Interlaken",
         "cat": {"kaffee": "Kaffee", "matcha": "Matcha", "tee": "Tee", "heiss": "Heissgetränke",

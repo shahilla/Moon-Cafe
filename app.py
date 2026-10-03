@@ -135,7 +135,7 @@ T = {
         "days": ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"],
         "closed_day": "geschlossen",
         "back": "Zurück zur Startseite", "r_title": "Tisch reservieren", "confirmed": "Reservierung bestätigt", "new_res": "Neue Reservierung",
-        "ph_vorname": "Anna", "ph_nachname": "Muster", "ph_email": "anna.muster@beispiel.ch", "ph_phone": "+41 79 123 45 67", "ph_date": "TT.MM.JJJJ",
+        "ph_vorname": "Anna", "ph_nachname": "Muster", "ph_email": "anna.muster@beispiel.ch", "ph_phone": "+41 79 123 45 67", "ph_date": "Datum wählen",
         "vorname": "Vorname", "nachname": "Nachname", "email": "E-Mail", "phone": "Handynummer",
         "date": "Datum", "time": "Uhrzeit", "pick_time": "Zeit wählen",
         "closed_this_day": "An diesem Tag geschlossen",
@@ -168,7 +168,7 @@ T = {
         "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         "closed_day": "closed",
         "back": "Back to home", "r_title": "Reserve a table", "confirmed": "Reservation confirmed", "new_res": "New reservation",
-        "ph_vorname": "Anna", "ph_nachname": "Smith", "ph_email": "anna.smith@example.com", "ph_phone": "+41 79 123 45 67", "ph_date": "DD.MM.YYYY",
+        "ph_vorname": "Anna", "ph_nachname": "Smith", "ph_email": "anna.smith@example.com", "ph_phone": "+41 79 123 45 67", "ph_date": "Select a date",
         "vorname": "First name", "nachname": "Last name", "email": "E-mail", "phone": "Mobile number",
         "date": "Date", "time": "Time", "pick_time": "Select a time",
         "closed_this_day": "Closed on this day",
@@ -522,8 +522,8 @@ RESERVIEREN = """
         value="{{ form.get('kinder','0') }}"></div>
     </div>
     <div class="hint">{{t.group_hint}}</div>
-    <label class="check"><input type="checkbox" name="kinderstuhl" value="ja"
-      {{ 'checked' if form.get('kinderstuhl')=='ja' else '' }}> {{t.highchair}}</label>
+    <label class="check"><input type="checkbox" name="kinderhochstuhl" value="ja"
+      {{ 'checked' if form.get('kinderhochstuhl')=='ja' else '' }}> {{t.highchair}}</label>
     <label>{{t.seat}}</label>
     <select name="bereich">
       <option value="drinnen" {{ 'selected' if form.get('bereich')=='drinnen' else '' }}>{{t.inside}}</option>
@@ -699,7 +699,7 @@ def pruefe(form, lang):
         if kinder: teile.append(f"{kinder} {'Kind' if kinder==1 else 'Kinder'}")
         wer = " und ".join(teile)
         bereich = "Terrasse" if form.get("bereich") == "terrasse" else "Innenbereich"
-        stuhl = "ja" if form.get("kinderstuhl") == "ja" else "nein"
+        stuhl = "ja" if form.get("kinderhochstuhl") == "ja" else "nein"
         text = (
             f"Vielen Dank für Ihre Reservierung, {vorname} {nachname}. "
             f"Wir haben Ihre Anfrage erfolgreich entgegengenommen. Hier Ihre Reservierungsdetails:\n"
@@ -718,7 +718,7 @@ def pruefe(form, lang):
         if kinder: teile.append(f"{kinder} child" + ("ren" if kinder != 1 else ""))
         wer = " and ".join(teile)
         bereich = "Terrace" if form.get("bereich") == "terrasse" else "Inside"
-        stuhl = "yes" if form.get("kinderstuhl") == "ja" else "no"
+        stuhl = "yes" if form.get("kinderhochstuhl") == "ja" else "no"
         text = (
             f"Thank you for your reservation, {vorname} {nachname}. "
             f"We have successfully received your request. Here are your reservation details:\n"

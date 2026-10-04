@@ -77,7 +77,7 @@ curl -s https://moon-cafe.azurewebsites.net/api/menu
 curl -s https://moon-cafe.azurewebsites.net/api/oeffnung
 ```
 
-Erwartetes Ergebnis: HTTP 200 mit JSON-Antwort. Der Endpunkt `/api/menu` wurde über die öffentliche URL getestet (siehe Dokumentation, Abbildung 10).
+Erwartetes Ergebnis: HTTP 200 mit JSON-Antwort. Alle drei Endpunkte wurden über die öffentliche URL getestet (siehe Dokumentation, Abbildungen 10 bis 12).
 
 ## Projektstruktur
 

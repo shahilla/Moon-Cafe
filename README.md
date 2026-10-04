@@ -51,7 +51,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Liveumgebung: `https://moon-cafe.azurewebsites.net/`
+Webanwendung: `https://moon-cafe.azurewebsites.net/`
 
 ## Web-API
 

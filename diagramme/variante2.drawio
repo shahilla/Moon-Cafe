@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="variante2" id="C29kSL4o1DpPnerCWpXn">
+    <mxGraphModel dx="1430" dy="527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7E6F3;strokeColor=#C88FBF;verticalAlign=top;align=left;spacingLeft=6;spacingTop=2;fontStyle=1;fontColor=#7a4a73;fontSize=11;" value="Microsoft Azure (Region Italy North)" vertex="1">
+          <mxGeometry height="520.6" width="441" x="-54" y="289.4" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FBFBFB;strokeColor=#9A9A9A;verticalAlign=top;align=left;spacingLeft=6;spacingTop=2;fontStyle=1;fontColor=#555555;fontSize=11;dashed=1;" value="Ressourcengruppe  rg-moon-cafe" vertex="1">
+          <mxGeometry height="462.6" width="390" x="-28" y="319.4" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;" value="Gäste&lt;br&gt;Browser / Web-API-Client" vertex="1">
+          <mxGeometry height="50" width="135" x="-54" y="109.4000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;" value="Internet&lt;br&gt;HTTPS" vertex="1">
+          <mxGeometry height="50" width="135" x="-54" y="194.4000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;" value="GitHub-Repository&lt;br&gt;Dockerfile + Quellcode" vertex="1">
+          <mxGeometry height="50" width="170" x="137" y="109.4000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;" value="GitHub Container Registry&lt;br&gt;ghcr.io/shahilla/moon-cafe" vertex="1">
+          <mxGeometry height="50" width="170" x="137" y="194.4000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;" value="Infrastructure as Code&lt;br&gt;az-CLI-Skript / Bicep" vertex="1">
+          <mxGeometry height="50" width="135" x="362" y="194.4000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;" value="App Service Plan&lt;br&gt;plan-moon-cafe - Linux - B1" vertex="1">
+          <mxGeometry height="55" width="240" x="42" y="369.4000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;" value="Azure App Service&lt;br&gt;Web App for Containers&lt;br&gt;moon-cafe&lt;br&gt;betreibt das Container-Image&lt;br&gt;öffentlicher HTTPS-Endpunkt" vertex="1">
+          <mxGeometry height="115" width="240" x="42" y="485.0000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;fontSize=11;dashed=1;" value="Azure Database (DBaaS)&lt;br&gt;Ausbaumöglichkeit&lt;br&gt;persistente Reservierungen" vertex="1">
+          <mxGeometry height="80" width="240" x="42" y="661.0000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-22" edge="1" parent="1" source="LrKaAUpzQ-heAM8QSi7Q-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4A4A4A;exitX=0.496;exitY=1.000;exitDx=0;exitDy=0;entryX=0.496;entryY=0.000;entryDx=0;entryDy=0;labelBackgroundColor=#D9D9D9;fontSize=10;" target="LrKaAUpzQ-heAM8QSi7Q-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-23" edge="1" parent="1" source="LrKaAUpzQ-heAM8QSi7Q-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4A4A4A;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.000;entryY=0.504;entryDx=0;entryDy=0;labelBackgroundColor=#D9D9D9;fontSize=10;" target="LrKaAUpzQ-heAM8QSi7Q-20" value="HTTPS">
+          <mxGeometry relative="1" x="-0.1061" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-86" y="219.4" />
+              <mxPoint x="-86" y="543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-24" edge="1" parent="1" source="LrKaAUpzQ-heAM8QSi7Q-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4A4A4A;exitX=0.500;exitY=1.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;labelBackgroundColor=#D9D9D9;fontSize=10;" target="LrKaAUpzQ-heAM8QSi7Q-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-25" edge="1" parent="1" source="LrKaAUpzQ-heAM8QSi7Q-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4A4A4A;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.000;entryY=0.504;entryDx=0;entryDy=0;labelBackgroundColor=#D9D9D9;fontSize=10;" target="LrKaAUpzQ-heAM8QSi7Q-20" value="Container-Image (pull)">
+          <mxGeometry relative="1" x="0.0192" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="346" y="219.4" />
+              <mxPoint x="346" y="543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-26" edge="1" parent="1" source="LrKaAUpzQ-heAM8QSi7Q-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4A4A4A;exitX=0.504;exitY=1.000;exitDx=0;exitDy=0;labelBackgroundColor=#D9D9D9;fontSize=10;dashed=1;" value="az deploy (IaC)">
+          <mxGeometry relative="1" x="-0.3905" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="430" y="344.4" />
+            </Array>
+            <mxPoint x="362" y="344.39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-27" edge="1" parent="1" source="LrKaAUpzQ-heAM8QSi7Q-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4A4A4A;exitX=0.500;exitY=1.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;labelBackgroundColor=#D9D9D9;fontSize=10;" target="LrKaAUpzQ-heAM8QSi7Q-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrKaAUpzQ-heAM8QSi7Q-28" edge="1" parent="1" source="LrKaAUpzQ-heAM8QSi7Q-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4A4A4A;exitX=0.500;exitY=1.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;labelBackgroundColor=#D9D9D9;fontSize=10;dashed=1;" target="LrKaAUpzQ-heAM8QSi7Q-21" value="Datenbankanbindung">
+          <mxGeometry relative="1" x="-0.0785" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

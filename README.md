@@ -53,8 +53,6 @@ python app.py
 
 Liveumgebung: `https://moon-cafe.azurewebsites.net/`
 
-Aufräumen nach der Bewertung: `az group delete -n rg-moon-cafe --yes --no-wait`
-
 ## Web-API
 
 Alle Endpunkte sind öffentlich, werden mit `GET` aufgerufen und liefern JSON.

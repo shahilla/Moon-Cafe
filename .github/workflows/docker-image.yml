@@ -1,5 +1,11 @@
+# =============================================================================
+# Moon Café Interlaken - Container-Image bauen und veröffentlichen (GitHub Actions)
+# Praxisarbeit VICC - Shahilla Fazal
+# =============================================================================
+
 name: Container-Image bauen und veroeffentlichen
 
+# Start bei jedem Push auf main oder manuell
 on:
   push:
     branches: [ main ]
@@ -23,6 +29,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      # Image aus dem Dockerfile bauen und nach ghcr.io übertragen
       - name: Image bauen und pushen
         uses: docker/build-push-action@v6
         with:

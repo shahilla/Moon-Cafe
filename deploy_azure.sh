@@ -26,6 +26,7 @@ az webapp create -g "$RG" -p "$PLAN" -n "$APP" --container-image-name "$IMAGE" -
 # Port der Anwendung im Container und Herkunft des Images festlegen
 echo ">> 4/5  Konfiguration (Port und Image)"
 az webapp config appsettings set -g "$RG" -n "$APP" --settings WEBSITES_PORT=8000 -o none
+az webapp update -g "$RG" -n "$APP" --https-only true -o none   # nur HTTPS zulassen
 az webapp config container set -g "$RG" -n "$APP" \
   --container-image-name "$IMAGE" \
   --container-registry-url "https://ghcr.io" -o none

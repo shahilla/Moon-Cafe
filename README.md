@@ -8,7 +8,7 @@ Zweisprachige Webanwendung für das Moon Café in Interlaken. Entwickelt mit Fla
 - Menükarte als eigene Seite, nach Kategorien gegliedert
 - Online-Tischreservierung mit serverseitiger Prüfung aller Eingaben
 - Kalender: vergangene Tage und der Ruhetag Donnerstag sind gesperrt, Reservierung höchstens ein Jahr im Voraus
-- Uhrzeit: Zeitfenster im 15-Minuten-Takt innerhalb der Öffnungszeiten, belegte und vergangene Zeiten nicht wählbar
+- Uhrzeit: Zeitfenster im 15-Minuten-Takt innerhalb der Öffnungszeiten, vergangene Zeiten und einzelne beispielhaft als belegt hinterlegte Zeiten (ohne Datenbank) nicht wählbar
 - Maximal 8 Personen (Erwachsene und Kinder zusammen), mindestens ein Erwachsener, Gruppen ab 9 Personen reservieren telefonisch
 - Kinderhochstuhl und Sitzplatz (drinnen oder Terrasse) wählbar
 - Prüfung von E-Mail-Adresse und Handynummer (Schweizer Format)
